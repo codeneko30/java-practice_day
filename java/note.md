@@ -1,0 +1,1 @@
+getter-setter vs encapsulation
