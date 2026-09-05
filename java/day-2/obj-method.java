@@ -12,15 +12,18 @@ class catInfo{
    public static void main(String[] args){
 
         cat myCat = new cat();
+        cat friendCat = new cat();
 
         myCat.name = "Tom";
+        friendCat.name = "Jerry";
         // Calling the method
         myCat.call();
+        friendCat.call();
 
         // Displaying the name of the cat
         System.out.println(myCat.name);
-        
-        
+        System.out.println(friendCat.name);
+
     }
 }
 
