@@ -38,7 +38,7 @@ class animalTest{
 
 
 
-// multilevel inheritance example
+// example-2
 class vehical{
 
     String name;
@@ -124,3 +124,6 @@ class vehicalTest{
         s1.stop();
     }
 }
+
+
+

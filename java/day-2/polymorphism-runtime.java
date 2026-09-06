@@ -30,7 +30,7 @@ class gameTest{
 
 
 
-// example [overloading]
+// example [overloading]- compile time polymorphism its not runtime polymorphism
 
 class paymentgateway{
 

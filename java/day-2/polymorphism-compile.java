@@ -79,3 +79,56 @@ class aeroplane_info{
         
     }
 }
+
+
+
+
+
+
+// examople of method overloading , intance variables and methods
+class software_engineer {
+
+    // Instance variables
+    String name;
+    int age;
+    String role;
+    String company;
+
+    // Method overloading - 1
+    void work() {
+        System.out.println(name + " is working.");
+    }
+
+    // Method overloading - 2
+    void work(String project) {
+        System.out.println(name + " is working on " + project);
+    }
+
+    // Method overloading - 3
+    void work(String project, int hours) {
+        System.out.println(name + " is working on " + project
+                + " for " + hours + " hours.");
+    }
+}
+
+class software_engineer_info {
+
+    public static void main(String args[]) {
+
+        software_engineer e1 = new software_engineer();
+
+        // Instance variable values
+        e1.name = "John";
+        e1.age = 25;
+        e1.role = "Backend Developer";
+        e1.company = "Google";
+
+        // Method overloading
+        e1.work();
+        e1.work("Payment System");
+        e1.work("Payment System", 8);
+    }
+}
+
+
+  

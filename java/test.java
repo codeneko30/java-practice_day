@@ -12,35 +12,35 @@
 // }
 
 
-class Animal {
+// class Animal {
 
-    void speak() {
-        System.out.println("Some sound");
-    }
-}
+//     void speak() {
+//         System.out.println("Some sound");
+//     }
+// }
 
-class Dog extends Animal {
+// class Dog extends Animal {
 
-    @Override
-    void speak() {
+//     @Override
+//     void speak() {
 
-        super.speak();
+//         super.speak();
 
-        System.out.println("Woof!");
-    }
-}
+//         System.out.println("Woof!");
+//     }
+// }
 
-class AnimalInfo {
+// class AnimalInfo {
 
-    public static void main(String[] args) {
+//     public static void main(String[] args) {
 
-        Dog myDog = new Dog();
+//         Dog myDog = new Dog();
 
-        myDog.speak();
-    }
-}
-
-
+//         myDog.speak();
+//     }
+// }
 
 
-  
+
+
+
