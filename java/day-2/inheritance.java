@@ -22,10 +22,14 @@ class cat extends animal{
 
 class animalTest{
     public static void main(String args[]){
+        
         dog a1 = new dog();
+
         cat a2 = new cat();
+
         a1.call();
         a1.eat();
+
         a2.call();
         a2.eat();
     }
