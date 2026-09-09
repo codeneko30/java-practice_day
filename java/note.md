@@ -21,3 +21,65 @@ Map ⭐⭐⭐⭐⭐
 Generics ⭐⭐⭐⭐
 Lambda + Stream API ⭐⭐⭐⭐
 Enums ⭐⭐⭐
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Array
+  ↓
+ArrayList ⭐⭐⭐⭐⭐
+  ↓
+HashMap ⭐⭐⭐⭐⭐
+  ↓
+HashSet ⭐⭐⭐
+  ↓
+LinkedList ⭐⭐
+  ↓
+Vector ⭐
+
+
+
+
+
+
+
+
+
+
+
+
+✅ Variables
+✅ if / else
+✅ loops
+✅ Array
+✅ 2D Array
+       ↓
+👉 ArrayList       ← এখন ভালোভাবে শেখো
+       ↓
+👉 LinkedList      ← basic ধারণা নাও
+       ↓
+👉 Vector          ← basic ধারণা নাও, বেশি practice দরকার নেই
+       ↓
+👉 HashSet
+       ↓
+👉 HashMap         ← Spring Boot-এর জন্য খুব গুরুত্বপূর্ণ
+       ↓
+👉 OOP
+       ↓
+👉 Exception Handling
+       ↓
+👉 Generics
+       ↓
+👉 Java Stream API
+       ↓
+👉 Spring Boot
